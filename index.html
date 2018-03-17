@@ -11,7 +11,7 @@
 </head>
 <body>
   <h1>TO DO LIST</h1>
-  <form class="form" action="index.html" method="post">
+  <form class="form" name="form" action="index.html" method="post">
     <dl>
       <dt><label for="title">タイトル</label></dt>
       <dd><input id="title" name="title" type="text" placeholder="タイトルを入力"></dd>
@@ -21,6 +21,7 @@
       <dd><textarea name="content" id="content" placeholder="内容を入力"></textarea></dd>
     </dl>
     <button type="button" id="add-btn" class="add-btn">追加する</button>
+    <button type="button" id="remove-btn" class="remove-btn">削除する</button>
   </form>
   <ul id="to-do-area" class="to-do-list"></div>
   <!-- <p id="text">サンプルテキスト</p>

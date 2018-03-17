@@ -63,7 +63,7 @@ form dd textarea{
 button
  */
 
-.add-btn{
+.add-btn,.remove-btn{
   display: block;
   padding: 10px 20px;
   margin: 30px auto;
@@ -78,7 +78,5 @@ button
 .to-do-list li{
   width: 33.333%;
   box-sizing: border-box;
-
   border: 2px solid #ddd;
-
 }
